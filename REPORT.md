@@ -1,8 +1,7 @@
 # Lab 21 - Evaluation Report
 
-**Học viên**: <Họ tên> - <MSSV>  
+**Học viên**: Vũ Như Đức - 2A202600344 \
 **Ngày nộp**: 2026-05-07  
-**Submission option**: A - Lightweight ZIP
 
 ## 1. Setup
 
@@ -22,7 +21,6 @@
 | 8 | 16 | 1,843,200 | 3.67 min | 7.22 GB | 1.5577 | 4.7479 |
 | 16 | 32 | 3,686,400 | 4.24 min | 6.62 GB | 1.5161 | 4.5544 |
 | 64 | 128 | 14,745,600 | 3.65 min | 8.00 GB | 1.4768 | 4.3790 |
-| Base | - | - | - | - | Not recorded | Not recorded |
 
 Perplexity được tính bằng công thức `exp(eval_loss)`. Trong các artifact hiện có, file `rank_experiment_summary.csv` có kết quả cho 3 adapter LoRA; base model chỉ có qualitative comparison, không có eval loss/perplexity riêng nên không điền số đoán.
 
